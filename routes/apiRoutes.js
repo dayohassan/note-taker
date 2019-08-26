@@ -1,3 +1,4 @@
+// create a connection
 var router = require('express').Router();
 var connection = require('../db/connection');
 router.get("/api/getnotes", function (req, res) {
